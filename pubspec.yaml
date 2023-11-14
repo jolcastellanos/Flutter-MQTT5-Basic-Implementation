@@ -1,0 +1,25 @@
+name: flutter_mqtt
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mqtt5_client: ^4.0.3
+  provider: ^6.1.1
+  uuid: ^4.2.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/certificates/emqxsl_ca.crt
